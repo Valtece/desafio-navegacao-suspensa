@@ -492,11 +492,17 @@ section{
 	display: flex;
 	align-items: center;
     padding: 2rem 0;
+    max-width: 50%;
+}
+
+.logos {
+    width: 80%;
 }
 
 .logos-r {
-	margin-left: 25px;
+	margin-left: 20px;
 }
+
 
 
 .lado2 {
@@ -597,6 +603,10 @@ picture {
     .box-logos {
         max-width: 200px;
         padding: 0rem 0;
+    }
+
+    .box-logos svg {
+        width: 65px;
     }
 
     
